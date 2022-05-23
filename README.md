@@ -95,8 +95,20 @@ http://0v.ru/gazprom_holiday.png
 
 Получить данные прогнозов: **get_pairs_data.py**
 
-
 Папка **api-cache** должна иметь права **777**
+
+----
+Пример данных:
+
+(Сделать веб-сервер на python уже не успеваю, поэтому используется простая заплатка из PHP)
+
+Список пар: http://0v.ru/NeuroInvest/get_pairs.php
+["APPLE INC/USD", "GAZPROM NEFT PJSC/RUR", "DOGE/BTC"]
+
+Данные пары:
+http://0v.ru/NeuroInvest/get_pairs_data.php?pair=APPLE%20INC/USD
+{"tradeX":[1653046200,1653046500,1653046800,16530471....
+
 
 ****
 
