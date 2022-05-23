@@ -119,6 +119,9 @@ http://0v.ru/NeuroInvest/get_pairs_data.php?pair=APPLE%20INC/USD
 С помощью API серверной части, работает простое Android-приложение
 
 
+APK-файл: http://0v.ru/NeuroInvest.1.001.apk
+
+
 Скриншоты:
 
 http://0v.ru/android-welcome.png
@@ -133,8 +136,6 @@ http://0v.ru/android-gazprom.png
 
 http://0v.ru/android-gazprom-horizontal.png
 
-
-APK-файл: http://0v.ru/NeuroInvest.1.001.apk
 
 
 *****
