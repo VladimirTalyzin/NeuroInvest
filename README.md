@@ -2,6 +2,7 @@
 
 Торговый бот для участия в конкурсе **Tinkoff Invest Robot Contest**
 
+Идея бота в том, чтобы подсказать, как дальше, скорее всего, будет двигаться тренд. А покупать или продавать, решает уже человек.
 
 
 1. **Серверная часть.**
@@ -115,6 +116,27 @@ http://0v.ru/NeuroInvest/get_pairs_data.php?pair=APPLE%20INC/USD
 
 2. **Мобильное приложение для просмотра данных**
 
+С помощью API серверной части, работает простое Android-приложение
 
+
+Скриншоты:
+
+http://0v.ru/android-welcome.png
+
+http://0v.ru/android-apple.png
+
+http://0v.ru/android-apple-horizontal.png
+
+http://0v.ru/android-doge.png
+
+http://0v.ru/android-gazprom.png
+
+http://0v.ru/android-gazprom-horizontal.png
+
+
+APK-файл: http://0v.ru/NeuroInvest.1.001.apk
+
+
+*****
 
 О конкурсе узнал в рассылке только 10 мая, доступ к API получил только 17 мая (были технические проблемы), так что были только одни свободные выходные :) Что успел, то успел. Надеюсь, вам понравится :)
