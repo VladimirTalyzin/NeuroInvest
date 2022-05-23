@@ -15,8 +15,31 @@
 
 Все данные кэшируются, чтобы минимизировать обращения к API. Обученные модели сохраняются после обучения и заново загружаются при формировании прогноза.
 
+----
 
-Настройка: **config.py**
+Зависимости:
+
+pip install tinkoff-api
+
+pip install scikit-learn
+
+pip install pykalman
+
+pip install numpy
+
+pip install scipy
+
+pip install pandas
+
+pip install requests
+
+pip install matplotlib (только если планируется выводить графики вне Android-приложения)
+
+-------
+
+Настройка
+
+Основные параметры: **config.py**
 
 **tinkoffAPIToken** - токен для доступа к API (тип: SANDBOX !).
 **scanInterval** - указано 5 минут. Интервал изменения данных свечей. Меньшие периоды не ботом не рассматриваются.
