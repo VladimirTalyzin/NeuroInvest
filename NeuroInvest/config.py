@@ -21,7 +21,7 @@ predictionIntervals = [1 * 60 * 60, 2 * 60 * 60, 4 * 60 * 60, 8 * 60 * 60]
 # TOKENS
 
 # Tinkoff API
-tinkoffAPIToken = "<< TOKEN >>"
+tinkoffAPIToken = " << TOKEN >> "
 
 # TTinkoff trading pair data
 class TinkoffTrade(Enum):
