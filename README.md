@@ -72,20 +72,19 @@ pip install matplotlib (только если планируется вывод�
 
 По оси Y - значение пары, по оси X - timestamp.
 
-http://0v.ru/gazprom.png
+![Gazprom](http://0v.ru/gazprom.png)
 
-http://0v.ru/apple.png
+![Apple](http://0v.ru/apple.png)
 
-http://0v.ru/doge.png
+![Dogecoin](http://0v.ru/doge.png)
 
 Поведение при отсутствии данных на выходных:
 
-http://0v.ru/apple_holiday.png
+![Apple holiday](http://0v.ru/apple_holiday.png)
 
-http://0v.ru/gazprom_holiday.png
+![Gazprom holiday](http://0v.ru/gazprom_holiday.png)
 
 Длинная полоса - это как раз показывает предсказываемое значение после прошествия выходных и открытия торгов.
-
 
 Папки **models** и **data** должны иметь права **777**
 
@@ -99,16 +98,24 @@ http://0v.ru/gazprom_holiday.png
 Папка **api-cache** должна иметь права **777**
 
 ----
+
 Пример данных:
+
 
 (Сделать веб-сервер на python уже не успеваю, поэтому используется простая заплатка из PHP)
 
+
 Список пар: http://0v.ru/NeuroInvest/get_pairs.php
+
+
 ["APPLE INC/USD", "GAZPROM NEFT PJSC/RUR", "DOGE/BTC"]
 
+
 Данные пары:
+
 http://0v.ru/NeuroInvest/get_pairs_data.php?pair=APPLE%20INC/USD
 {"tradeX":[1653046200,1653046500,1653046800,16530471....
+
 
 
 ****
@@ -118,25 +125,22 @@ http://0v.ru/NeuroInvest/get_pairs_data.php?pair=APPLE%20INC/USD
 
 С помощью API серверной части, работает простое Android-приложение
 
-
 APK-файл: http://0v.ru/NeuroInvest.1.001.apk
 
 
 Скриншоты:
 
-http://0v.ru/android-welcome.png
+![Welcome page](http://0v.ru/android-welcome.png)
 
-http://0v.ru/android-apple.png
+![Apple](http://0v.ru/android-apple.png)
 
-http://0v.ru/android-apple-horizontal.png
+![Apple horizontal](http://0v.ru/android-apple-horizontal.png)
 
-http://0v.ru/android-doge.png
+![Dogecoin](http://0v.ru/android-doge.png)
 
-http://0v.ru/android-gazprom.png
+![Gazprom](http://0v.ru/android-gazprom.png)
 
-http://0v.ru/android-gazprom-horizontal.png
-
-
+![Gazprom horizontal](http://0v.ru/android-gazprom-horizontal.png)
 
 *****
 
